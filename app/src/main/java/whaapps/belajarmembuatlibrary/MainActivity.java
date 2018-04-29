@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
         String text = "Reno pergi ke Bali";
         String textalay = AlayHelper.alaynize(text);
 
-        TextView textView = findViewById(R.id.textView);
+        TextView textView = findViewById(R  .id.textView);
+        textView.setText(textalay);
 
     }
 }
