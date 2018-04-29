@@ -2,6 +2,7 @@ package whaapps.belajarmembuatlibrary;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import com.example.textalay.AlayHelper;
 
@@ -14,5 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
         String text = "Reno pergi ke Bali";
         String textalay = AlayHelper.alaynize(text);
+
+        TextView textView = findViewById(R.id.textView);
+
     }
 }
