@@ -14,7 +14,5 @@ public class MainActivity extends AppCompatActivity {
 
         String text = "Reno pergi ke Bali";
         String textalay = AlayHelper.alaynize(text);
-
-
     }
 }
